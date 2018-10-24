@@ -9,14 +9,22 @@ nav {
   text-align: center;
   color: #FFF;
 }
-h1 {
+h2 {
+  margin-bottom: 5px;
+}
+.section {
+  height: 100vh;
+}
+.sectionHeading {
+  width: 90%;
+  margin: auto;
+  background-color: #4F5D75;
+  padding: 10px;
+  text-align: center;
+}
+.sectionHeading h1 {
   margin: 0;
-}
-.main {
-  height: 100vh;
-}
-.bio {
-  height: 100vh;
+  color: #FFFFFF;
 }
 #profilePic {
   margin: 20px;
@@ -30,6 +38,17 @@ h1 {
   width: 90%;
   max-width: 600px;
   background-color: #4F5D75;
+  text-align: center;
+  padding-right: 1em;
+}
+.img-container h2{
+  color: #FFFFFF;
+  font-size: 24px;
+}
+.img-container p{
+  color: #FFFFFF;
+  font-size: 24px;
+  margin: 5 0;
 }
 .row {
   display: grid;
@@ -51,8 +70,12 @@ h1 {
 i {
   color: #FFFFFF;
 }
-i:hover {
+i.linkIcon:hover {
   transform: scale(2);
+}
+.symbol {
+  font-size: 70px;
+  margin: auto;
 }
 #leftCol{
   background-color: #2D3142;
